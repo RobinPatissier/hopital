@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    background-color: #354949 !important;
+    padding: 45px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2 {
+    padding: 45px 0;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url('host.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+}
+
+
+.navbar-nav .nav-link {
+    transition: color 0.4s; /* Transition de couleur de 0.3 seconde */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cc0505 !important; /* Couleur au survol */
+}
+
+.custom-bg-color {
+    background-color: #689090;
+}
+
+
+
+/* Styles pour les boutons */
+.bouton {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Couleur de base des boutons */
+  #bouton1 {
+    background-color: #689090;
+    color: white;
+  }
+  
+  #bouton2 {
+    background-color: #689090;
+    color: white;
+  }
+  
+  #bouton3 {
+    background-color: #689090;
+    color: white;
+  }
+  
+  #bouton4 {
+    background-color: #689090;
+    color: white;
+  }
+  
+  /* Effet au survol */
+  .bouton:hover {
+    opacity: 0.8;
+  }
+
+  /* Styles pour le conteneur et les boutons */
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Espacement entre les deux rangées */
+  }
+  
+  .top {
+    /* Styles pour les boutons de la rangée supérieure */
+    margin-bottom: 10px; /* Espacement entre les deux rangées */
+  }
+  
+
+  /* Styles pour l'animation au clic */
+.clic-animation {
+    transform: scale(0.95); /* Réduire légèrement la taille */
+    transition: transform 0.2s ease; /* Animation de transformation */
+  }
+  
+  
+  .bouton {
+    display: block;
+    padding: 80px 120px; /* Taille des boutons agrandie */
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  
+
+
+
+
+
+
+
+
